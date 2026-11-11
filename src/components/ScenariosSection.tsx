@@ -19,6 +19,7 @@ import {
   Save,
   Check,
 } from 'lucide-react';
+import seminarImage from '../assets/images/ethics_seminar_dialogue_1794422428207.jpg';
 
 export const ScenariosSection: React.FC = () => {
   const { progress, recordScenarioDecision } = useProgress();
@@ -70,7 +71,7 @@ export const ScenariosSection: React.FC = () => {
           <div className="lg:col-span-4 flex justify-center">
             <div className="relative rounded-xl overflow-hidden border border-stone-200 shadow-md max-w-sm w-full">
               <img
-                src="/src/assets/images/ethics_seminar_dialogue_1794422428207.jpg"
+                src={seminarImage}
                 alt="Docentes universitarios en seminario de deliberación ética pedagógica"
                 referrerPolicy="no-referrer"
                 className="w-full h-44 object-cover"

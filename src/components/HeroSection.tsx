@@ -6,6 +6,7 @@
 import React from 'react';
 import { useProgress } from '../context/ProgressContext';
 import { ArrowRight, Compass, ShieldCheck, Sparkles, BookOpen } from 'lucide-react';
+import heroImage from '../assets/images/hero_pedagogical_ethics_1794422426772.jpg';
 
 interface HeroSectionProps {
   onScrollToObjectives: () => void;
@@ -103,7 +104,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onScrollToObjectives }
           <div className="lg:col-span-5 flex flex-col justify-center">
             <div className="relative rounded-2xl overflow-hidden border border-stone-800 bg-stone-950 shadow-2xl group">
               <img
-                src="/src/assets/images/hero_pedagogical_ethics_1794422426772.jpg"
+                src={heroImage}
                 alt="Cuaderno académico de deliberación ética pedagógica y pluma fuente en biblioteca universitaria"
                 referrerPolicy="no-referrer"
                 className="w-full h-80 sm:h-96 lg:h-full object-cover group-hover:scale-102 transition-transform duration-700"

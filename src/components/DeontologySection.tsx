@@ -19,6 +19,7 @@ import {
   Shield,
   Lightbulb,
 } from 'lucide-react';
+import balanceImage from '../assets/images/balance_justice_sculpture_1794422427614.jpg';
 
 export const DeontologySection: React.FC = () => {
   const { progress, recordMatchingGame } = useProgress();
@@ -134,7 +135,7 @@ export const DeontologySection: React.FC = () => {
           <div className="lg:col-span-4 flex justify-center">
             <div className="relative rounded-xl overflow-hidden border border-stone-200 shadow-md max-w-sm w-full">
               <img
-                src="/src/assets/images/balance_justice_sculpture_1794422427614.jpg"
+                src={balanceImage}
                 alt="Escultura conceptual que representa el equilibrio y la justicia ética"
                 referrerPolicy="no-referrer"
                 className="w-full h-48 object-cover"
