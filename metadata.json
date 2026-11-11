@@ -1,0 +1,6 @@
+{
+  "name": "Dilemas Éticos en la Práctica Docente",
+  "description": "Aplicación web educativa interactiva sobre dilemas éticos pedagógicos: fundamentos deontológicos, escenarios de decisión, matriz deliberativa y evaluación formativa.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
